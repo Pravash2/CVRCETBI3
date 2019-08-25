@@ -1,0 +1,42 @@
+nav {
+    background: #07036F;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#discover {
+    background: url(./img/video-img.png);
+    height: 500px;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+#video_button {
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    background: #002CB4;
+    border-radius: 50%;
+}
+
+#video_button:hover {
+    background: #fff;
+    border: 5px solid #002CB4;
+}
